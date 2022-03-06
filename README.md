@@ -3,17 +3,15 @@
 
 ### requirements
 
-- Docker
-- Hadoop package
+- Install Docker
+- Download Hadoop RELEASE="3.3.1"
 ```
-    RELEASE="3.3.1"
-    wget https://www-eu.apache.org/dist/hadoop/common/hadoop-$RELEASE/hadoop-$RELEASE.tar.gz
+    wget https://www-eu.apache.org/dist/hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz
 
 ```
-- Hbase package
+- Download Hbase VER="2.2.4"
 ```
-    VER="2.2.4"
-    wget http://apache.mirror.gtcomm.net/hbase/stable/hbase-$VER-bin.tar.gz
+    wget http://apache.mirror.gtcomm.net/hbase/stable/hbase-2.2.4-bin.tar.gz
 
 ```
 
